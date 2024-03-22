@@ -1,12 +1,35 @@
 /* styles.css */
 body {
-
+    margin: 0;
+    padding: 0;
     background-image: url('https://wallpapercave.com/wp/wp3396915.jpg');
-
+    background-size: cover;
+    background-position: center;
 }
 
-.welcome img {
-    max-width: 250px;
-    max-height: 250px;
-    margin-top: 20px;
+.logo-container {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.logo {
+    width: 200px;
+    height: auto;
+}
+
+.content-container {
+    width: calc(100% - 40px);
+    max-width: 600px;
+    padding: 20px;
+    box-sizing: border-box;
+    position: fixed;
+    top: 150px; /* Espacio entre el logo y el contenido */
+    left: calc(50% - 320px);
+    overflow-y: auto; /* Habilitar desplazamiento vertical */
+    max-height: calc(100vh - 200px); /* Altura máxima del contenido */
+}
+
+.welcome p {
+    font-size: 20px;
+    color: #333;
 }
