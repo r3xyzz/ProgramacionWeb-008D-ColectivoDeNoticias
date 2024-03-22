@@ -4,3 +4,9 @@ body {
     background-image: url('https://wallpapercave.com/wp/wp3396915.jpg');
 
 }
+
+.welcome img {
+    max-width: 100px;
+    max-height: 100px;
+    margin-top: 20px;
+}
