@@ -145,3 +145,8 @@ header {
     display: block;
     margin-bottom: 10px;
 }
+
+.imagen-circular{
+    border-radius: 50%;
+    width: 150px;
+}
