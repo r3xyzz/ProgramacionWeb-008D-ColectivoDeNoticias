@@ -129,7 +129,7 @@ header {
     display: flex; 
     justify-content: center; /*Centrar el contenido*/
     align-items: center;
-    height: 100vh; /*100% del alto de la ventana*/
+    height: 50vh; /*100% del alto de la ventana*/
     margin: 0; /*Se elimina el margen*/
 }
 
@@ -143,5 +143,5 @@ header {
 
 .formulario-contacto label {
     display: block;
-    margin-bottom: 10px;
+    margin-bottom: 4px;
 }
