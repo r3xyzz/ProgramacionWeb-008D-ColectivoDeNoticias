@@ -14,14 +14,12 @@ header {
     margin-bottom: 20px; /* Agregar margen inferior */
 }
 
-
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     max-width: 1200px;
     margin: 0 auto;
-    
 }
 
 .logo-container {
@@ -69,15 +67,6 @@ header {
     cursor: pointer;
 }
 
-/* Fondo blanco semi transparente QUITADO NO USAR, POR NADA DEL MUNDO */
-.container {
-    max-width: 800px;
-    margin: 100px auto; /* Margen superior e inferior ajustado */
-    padding: 20px;
-    border-radius: 10px;
-}
-
-
 .welcome p {
     font-size: 18px;
     line-height: 1.6;
@@ -90,23 +79,22 @@ header {
 }
 
 .info-box {
-    float: left;
-    width: calc(50% - 20px); /* El ancho es el 50% del contenedor menos el margen */
-    margin-right: 20px;
-    margin-bottom: 20px;
+    width: calc(50% - 40px); /* El ancho es el 50% del contenedor menos el margen */
+    margin: 20px auto; /* Centrar y agregar margen exterior */
     padding: 20px;
     background-color: rgba(255, 255, 255, 0.9); /* Fondo blanco semi transparente */
     border-radius: 10px;
     border: 2px solid #333; /* Borde de 2px sólido */
 }
 
-.info-box.right {
-    float: right;
+.info-box-left {
+    margin-right: auto; /* Posicionar a la izquierda */
+    margin-left: 0;
+}
+
+.info-box-right {
+    margin-left: auto; /* Posicionar a la derecha */
     margin-right: 0;
-    margin-left: 20px; /* Margen a la izquierda para evitar superposición */
-    background-color: rgba(255, 255, 255, 0.9); /* Fondo blanco semi transparente */
-    border-radius: 10px;
-    border: 2px solid #333; /* Borde de 2px sólido */
 }
 
 .info-box p {
@@ -122,11 +110,6 @@ header {
     background-color: rgba(255, 255, 255, 0.9); /* Fondo blanco semi transparente */
     border-radius: 10px;
     border: 2px solid #333; /* Borde de 2px sólido */
-    clear: both; /* Limpiar los flotadores */
-}
-
-.welcome p {
-    margin: 0; /* Eliminar el margen interno */
 }
 
 /*  Configuración del contenedor del formulario */
@@ -134,7 +117,7 @@ header {
     display: flex; 
     justify-content: center; /*Centrar el contenido*/
     align-items: center;
-    height: 100vh; /*100% del alto de la ventana*/
+    height: 50vh; /*100% del alto de la ventana*/
     margin: 0; /*Se elimina el margen*/
 }
 
@@ -148,10 +131,5 @@ header {
 
 .formulario-contacto label {
     display: block;
-    margin-bottom: 10px;
-}
-
-.imagen-circular{
-    border-radius: 50%;
-    width: 150px;
+    margin-bottom: 4px;
 }
