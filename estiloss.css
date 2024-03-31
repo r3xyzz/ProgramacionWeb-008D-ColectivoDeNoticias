@@ -84,6 +84,11 @@ header {
     color: #333;
 }
 
+.container {
+    max-width: 800px;
+    margin: 0 auto 100px; /* Centrar y agregar margen inferior */
+}
+
 .info-box {
     float: left;
     width: calc(50% - 20px); /* El ancho es el 50% del contenedor menos el margen */

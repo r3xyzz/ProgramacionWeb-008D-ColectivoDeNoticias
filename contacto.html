@@ -16,7 +16,7 @@
                 <li><a href="#">Inicio</a></li>
                 <li><a href="#">Noticias</a></li>
                 <li><a href="#">Acerca de</a></li>
-                <li><a href="#">Contacto</a></li>
+                <li><a href="http://127.0.0.1:3000/contacto.html">Contacto</a></li>
             </ul>
             <div class="search-container">
                 <input type="text" placeholder="Buscar...">
@@ -24,8 +24,8 @@
             </div>
         </nav>
     </header>
+    <h1 style="color: rgb(50, 51, 51);display: flex; justify-content: center; ">Formulario de Contacto</h1>
     <div class="formulario-contacto">
-        <h2>Contacto</h2>
         <form>
             <label for="nombre">Nombre:</label><br>
             <input type="text" id="nombre" name="nombre" required><br><br>
@@ -33,8 +33,8 @@
             <label for="email">Email:</label><br>
             <input type="email" id="email" name="email" required><br><br>
         
-            <label for="rut">Rut:</label><br>
-            <input id="text" name="rut" rows="1" required><br><br>
+            <label for="motivo">Describa el motivo:</label><br>
+            <textarea type="text"id=" motivo" name="motivo" rows="8" placeholder="Escribe aquí el motivo para contactarte con el equipo de Caos News" required></textarea>><br><br>
         
             <input type="submit" value="Enviar">
         </form>
