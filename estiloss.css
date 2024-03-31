@@ -11,7 +11,9 @@ body {
 header {
     background-color: rgba(51, 51, 51, 0.7); /* Fondo semi transparente */
     padding: 20px 0;
+    margin-bottom: 20px; /* Agregar margen inferior */
 }
+
 
 .navbar {
     display: flex;
@@ -19,6 +21,7 @@ header {
     align-items: center;
     max-width: 1200px;
     margin: 0 auto;
+    
 }
 
 .logo-container {
@@ -48,6 +51,7 @@ header {
 
 .search-container {
     margin-right: 20px;
+    margin-bottom: 20px;
 }
 
 .search-container input[type="text"] {
@@ -65,16 +69,57 @@ header {
     cursor: pointer;
 }
 
+/* Fondo blanco semi transparente QUITADO NO USAR, POR NADA DEL MUNDO */
 .container {
     max-width: 800px;
     margin: 100px auto; /* Margen superior e inferior ajustado */
     padding: 20px;
-    background-color: rgba(255, 255, 255, 0.7); /* Fondo blanco semi transparente */
     border-radius: 10px;
 }
+
 
 .welcome p {
     font-size: 18px;
     line-height: 1.6;
     color: #333;
+}
+
+.info-box {
+    float: left;
+    width: calc(50% - 20px); /* El ancho es el 50% del contenedor menos el margen */
+    margin-right: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9); /* Fondo blanco semi transparente */
+    border-radius: 10px;
+    border: 2px solid #333; /* Borde de 2px sólido */
+}
+
+.info-box.right {
+    float: right;
+    margin-right: 0;
+    margin-left: 20px; /* Margen a la izquierda para evitar superposición */
+    background-color: rgba(255, 255, 255, 0.9); /* Fondo blanco semi transparente */
+    border-radius: 10px;
+    border: 2px solid #333; /* Borde de 2px sólido */
+}
+
+.info-box p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+    margin: 0; /* Eliminar el margen interno */
+}
+
+.welcome {
+    margin-bottom: 50px; /* Añadir margen inferior al contenedor principal ACA SE HACE LA SEPARACION DE LOS CUADROS DE TEXTO */
+    padding: 20px; /* Añadir relleno al contenedor principal */
+    background-color: rgba(255, 255, 255, 0.9); /* Fondo blanco semi transparente */
+    border-radius: 10px;
+    border: 2px solid #333; /* Borde de 2px sólido */
+    clear: both; /* Limpiar los flotadores */
+}
+
+.welcome p {
+    margin: 0; /* Eliminar el margen interno */
 }
