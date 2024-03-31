@@ -111,3 +111,25 @@ header {
     border-radius: 10px;
     border: 2px solid #333; /* Borde de 2px sólido */
 }
+
+/*  Configuración del contenedor del formulario */
+.formulario-contacto {
+    display: flex; 
+    justify-content: center; /*Centrar el contenido*/
+    align-items: center;
+    height: 100vh; /*100% del alto de la ventana*/
+    margin: 0; /*Se elimina el margen*/
+}
+
+.formulario-contacto form {
+    width: 300px; /*Ancho del formulario*/
+    padding: 20px;
+    border: 1px solid #333; /*Borde del formulario*/
+    border-radius: 5px; /*Para que el borde esté redondeado*/
+    background-color: rgba(255, 255, 255, 0.8);;
+}
+
+.formulario-contacto label {
+    display: block;
+    margin-bottom: 10px;
+}
