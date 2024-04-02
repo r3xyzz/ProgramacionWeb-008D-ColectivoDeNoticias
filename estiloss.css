@@ -220,3 +220,9 @@ header {
     margin-top: 70px; /* Puedes ajustar el valor según sea necesario */
 }
 
+
+.recuadro-noticia {
+    background-color: #333;
+    color: #fff;
+    width: full;
+}
