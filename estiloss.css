@@ -164,3 +164,9 @@ header {
 .cont-carrusel{
     margin-bottom:40px;
 }
+
+.recuadro-noticia {
+    background-color: #333;
+    color: #fff;
+    width: full;
+}
