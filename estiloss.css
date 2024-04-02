@@ -228,3 +228,10 @@ header {
     width: 100%;
     border: #ff0f0f;
 }
+
+/* Estilo Blackletter para el texto 'Caos New' en tu navbar */
+.navbar-brand {
+    font-family: 'Old English Text MT', Times, serif;
+  }
+  
+
