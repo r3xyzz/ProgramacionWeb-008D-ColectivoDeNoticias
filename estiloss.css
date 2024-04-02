@@ -168,5 +168,7 @@ header {
 .recuadro-noticia {
     background-color: #333;
     color: #fff;
-    width: full;
+    height: 25vb;
+    width: 100%;
+    border: #ff0f0f;
 }
