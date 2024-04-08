@@ -6,33 +6,94 @@
     </head>
     <body>
         <header>
-            <nav class="navbar">
-                <div class="logo-container">
-                    <img src="imagenes.img/logo_cn.png" alt="Caos News Logo" class="logo">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">Caos New</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Acerca de </a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Noticias
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" aria-disabled="false">Contacto</a>
+                      </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                      <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                  </div>
                 </div>
-                <ul class="nav-links">
-                    <li><a href="#">Inicio</a></li>
-                    <li><a href="http://127.0.0.1:3000/noticias.html">Noticias</a></li>
-                    <li><a href="#">Acerca de</a></li>
-                    <li><a href="http://127.0.0.1:3000/contacto.html">Contacto</a></li>
-                </ul>
-                <div class="search-container">
-                    <input type="text" placeholder="Buscar...">
-                    <button type="submit">Buscar</button>
-                </div>
-            </nav>
+              </nav>
         </header>
         <div class="recuadro-noticia">
             <div class="row">
-                <h1>TITULO NOTICIA</h1>
+                <h1>HAITIANOS EN CHILE: CHINOY VS. PABLO HERRERA</h1>
             </div>
             <div class="row">
                 <div class="col">
-                    <p>descripción<br>descripción<br>descripción<br>descripción<br>descripción</p>
+                    <p>He sido extranjero toda mi vida –primero en Alemania, luego en Colombia, y a veces también me he sentido así en Chile– y sé lo doloroso que es que te insulten por tu mera condición de afuerino.</p>
                 </div>
                 <div class="col">
-                    <h1>IMAGEN</h1>
+                    <img src="imagenes.img/noticia_haitianos.jpg" alt="noticia_haitianos">
                 </div>
             </div>
+        </div>
+        <div class="cuerpo-noticia">
+            <p id="fecha" style="margin-right: 40%;">02/03/2024 - Chile, Valparaíso</p>
+            <img class="imagen-circular" alt="Foto de Autor de Noticia" src="https://square-vn.com/app/dscms/assets/images/person-1.jpg">
+            <p id ="fecha">Mauricio José | periodista.</p>
+            <h2>HAITIANOS EN CHILE: CHINOY VS. PABLO HERRERA</h2>
+            <hr>
+            <p>He sido extranjero toda mi vida –primero en Alemania, luego en Colombia, y a veces también me he sentido así en Chile– y sé lo doloroso que es que te insulten por tu mera condición de afuerino.</p>
+            <ul>
+                <li>Por eso comprendo por qué la comunidad haitiana de Chile –proveniente del primer país independiente de América Latina, por cierto– se querelló contra elcantante Pablo Herrera por sus dichos xenófobos, que además fueron apoyados por José Alfredo “Pollo” Fuentes.</li>
+                <li>“Los alrededores de la Vega son un asco, un asco. Tienen hecho mierda todo y otra vez los extranjeros, especialmente los haitianos, que venden unos pollos rellenos con no sé qué huevadas que nadie compra, podridos… trajeron esa cultura de mierda. Tú te tienes que encerrar a comer adentro”, fueron algunos de los dichos de Herrera en Radio Bío-Bío.</li>
+            </ul>
+            <p>Uno de los que reaccionó fue Chinoy, quien señaló a Página 7 que no es correcto fomentar el racismo ni la xenofobia.</p>
+            <ul>
+                <li>“Bueno, eso es estar medio ciego a todos los cabos sueltos que hay detrás. La política, si tiene buenas intenciones, debería ordenarse en algunos ámbitos y no dejar tampoco que explote el racismo, la xenofobia”, dijo Chinoy, cuyo nombre real es Mauricio Castillo.</li>
+                <li>También indicó que debería aparecer “una voz de esperanza y de comunión entre la gente, que sea más fuerte por ese lado el combate”.</li>
+            </ul>
+            <hr>
+        </div>
+        <div class="recuadro-noticia">
+            <div class="row">
+                <div class="col">
+                    <h1>Caos News</h1>
+                </div>
+                <div class="col">
+                    <h6>Quiénes somos</h6><br>
+                    <h6>Código de ética</h6><br>
+                    <h6>Canal de denuncias</h6>
+                </div>
+                <div class="col">
+                    <h6>Preguntas frecuentes</h6><br>
+                    <h6>Declaración de intereses</h6><br>
+                    <h6>Contacto comercial</h6>
+                </div>
+                <div class="col">
+                    <h6>Términos y condiciones</h6><br>
+                    <h6>Politícas de privacidad</h6>
+                </div>
+            </div>
+        </div>
     </body>
 </html>

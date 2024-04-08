@@ -6,33 +6,91 @@
     </head>
     <body>
         <header>
-            <nav class="navbar">
-                <div class="logo-container">
-                    <img src="imagenes.img/logo_cn.png" alt="Caos News Logo" class="logo">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">Caos New</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Acerca de </a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Noticias
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" aria-disabled="false">Contacto</a>
+                      </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                      <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                  </div>
                 </div>
-                <ul class="nav-links">
-                    <li><a href="#">Inicio</a></li>
-                    <li><a href="http://127.0.0.1:3000/noticias.html">Noticias</a></li>
-                    <li><a href="#">Acerca de</a></li>
-                    <li><a href="http://127.0.0.1:3000/contacto.html">Contacto</a></li>
-                </ul>
-                <div class="search-container">
-                    <input type="text" placeholder="Buscar...">
-                    <button type="submit">Buscar</button>
-                </div>
-            </nav>
+              </nav>
         </header>
         <div class="recuadro-noticia">
             <div class="row">
-                <h1>TITULO NOTICIA</h1>
+                <h1>“El omnipresente”: la prensa inglesa se rinde ante Ben Brereton Díaz y sus goles</h1>
             </div>
             <div class="row">
                 <div class="col">
-                    <p>descripción<br>descripción<br>descripción<br>descripción<br>descripción</p>
+                    <p>Desde el país natal del atacante de La Roja resaltaron el excelente rendimiento exhibido por el artillero frente al Fulham por la Premier League.</p>
                 </div>
                 <div class="col">
-                    <h1>IMAGEN</h1>
+                    <img src="imagenes.img/noticia_fulbo.jpg" alt="noticia_disparo">
                 </div>
             </div>
+        </div>
+        <div class="cuerpo-noticia">
+            <p id="fecha" style="margin-right: 40%;">02/03/2024 - Chile, Valparaíso</p>
+            <img class="imagen-circular" alt="Foto de Autor de Noticia" src="https://square-vn.com/app/dscms/assets/images/person-1.jpg">
+            <p id ="fecha">Mauricio José | periodista.</p>
+            <h2>“El omnipresente”: la prensa inglesa se rinde ante Ben Brereton Díaz y sus goles</h2>
+            <hr>
+            <p>Una espectacular jornada tuvo este sábado Ben Brereton Díaz. Es que el atacante nacional fue la gran figura en el empate 3-3 entre su equipo, Sheffield United, y el Fulham al anotar dos tantos y aportar con una asistencia en la otra conquista de Los Sables.</p>
+            <p>Como era de esperar su buen cometido fue destacado en Inglaterra, en donde medios como The Star apuntaron que el delantero fue “convocado por Chile durante el parón internacional y lució animado en sus batallas con la defensa del Fulham (...)”, agregando que “estuvo en el lugar correcto para finiquitar un centro de McBurnie y no se equivocó en su remate, antes de devolverle el favor a su compañero de ataque”.</p>
+            <p>En tanto el Daily Mail indicó que “después de una primera mitad sin goles y en gran medida sin vida, Ben Brereton Díaz adelantó a los Blades en el minuto 58″.</p>
+            <p>Luego, el citado medio destacó que “aunque los Cottagers pronto empataron gracias a un cabezazo de Joao Palhinha, el omnipresente Brereton Díaz preparó a su compañero de ataque Oli McBurnie para restaurar la ventaja del United y luego añadió un tercero para poner el 3-1, convirtiéndose en su cuarto gol en cinco apariciones en la Premier League”.</p>
+            <p>Finalmente The Guardian narró que el artillero nacido en Inglaterra “puso a los Blades al frente, y después de que Joao Palhinha empatara de cabeza para el Fulham, el delantero chileno preparó a Oli McBurnie para el segundo del equipo local antes de llevarlos a una ventaja de 3-1″.</p>
+            <p>Sin embargo, añadió, que “Bobby De Cordova-Reid redujo la diferencia para el Fulham en el minuto 86 y Muniz silenció acrobáticamente a los aficionados locales con su octavo gol (...)”, concluyó.</p>
+            <hr>
+        </div>
+        <div class="recuadro-noticia">
+            <div class="row">
+                <div class="col">
+                    <h1>Caos News</h1>
+                </div>
+                <div class="col">
+                    <h6>Quiénes somos</h6><br>
+                    <h6>Código de ética</h6><br>
+                    <h6>Canal de denuncias</h6>
+                </div>
+                <div class="col">
+                    <h6>Preguntas frecuentes</h6><br>
+                    <h6>Declaración de intereses</h6><br>
+                    <h6>Contacto comercial</h6>
+                </div>
+                <div class="col">
+                    <h6>Términos y condiciones</h6><br>
+                    <h6>Politícas de privacidad</h6>
+                </div>
+            </div>
+            </div>
+        </div>
     </body>
 </html>

@@ -6,33 +6,98 @@
     </head>
     <body>
         <header>
-            <nav class="navbar">
-                <div class="logo-container">
-                    <img src="imagenes.img/logo_cn.png" alt="Caos News Logo" class="logo">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">Caos New</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Acerca de </a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Noticias
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" aria-disabled="false">Contacto</a>
+                      </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                      <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                  </div>
                 </div>
-                <ul class="nav-links">
-                    <li><a href="#">Inicio</a></li>
-                    <li><a href="http://127.0.0.1:3000/noticias.html">Noticias</a></li>
-                    <li><a href="#">Acerca de</a></li>
-                    <li><a href="http://127.0.0.1:3000/contacto.html">Contacto</a></li>
-                </ul>
-                <div class="search-container">
-                    <input type="text" placeholder="Buscar...">
-                    <button type="submit">Buscar</button>
-                </div>
-            </nav>
+              </nav>
         </header>
         <div class="recuadro-noticia">
             <div class="row">
-                <h1>TITULO NOTICIA</h1>
+                <h1>Nuevos simuladores clínicos multiculturales apoyan la formación de profesionales de la salud</h1>
             </div>
             <div class="row">
                 <div class="col">
-                    <p>descripción<br>descripción<br>descripción<br>descripción<br>descripción</p>
+                    <p>La U. San Sebastián potencia nuevas metodologías educativas para la formación en salud con la adquisición de simuladores clínicos multiculturales que permitirán a los estudiantes de dichas carreras formarse con modelos mucho más parecidos a la nueva realidad multiétnica del país.</p>
                 </div>
                 <div class="col">
-                    <h1>IMAGEN</h1>
+                    <img src="imagenes.img/noticia_simuladores.jpg" alt="noticia_simuladores">
                 </div>
             </div>
+        </div>
+        <div class="cuerpo-noticia">
+            <p id="fecha" style="margin-right: 40%;">02/03/2024 - Chile, Valparaíso</p>
+            <img class="imagen-circular" alt="Foto de Autor de Noticia" src="https://square-vn.com/app/dscms/assets/images/person-1.jpg">
+            <p id ="fecha">Mauricio José | periodista.</p>
+            <h2>Nuevos simuladores clínicos multiculturales apoyan la formación de profesionales de la salud</h2>
+            <hr>
+            <p>La globalización y los movimientos migratorios han generado nuevas necesidades de salud en la población, y con ello han obligado a los sistemas de salud a adecuarse a los contextos de diversidad cultural como la nueva realidad del país.</p>
+            <p>En ese sentido, la Universidad San Sebastián (USS) está potenciando nuevas metodologías educativas para la formación integral y multicultural de sus estudiantes de las carreras del área de la salud con la reciente incorporación de simuladores clínicos multiculturales en sus Hospitales de Simulación Clínica.</p>
+            <p>Esta tecnología fue diseñada por el artista prostético Stuart Bray, conocido por su trabajo en la exitosa serie Game of Thrones y también en grandes producciones del cineasta Steven Spielberg, y consiste en desarrollar competencias interculturales para la entrega de prestaciones y cuidados en salud en el ámbito de la diversidad cultural y en condiciones lo más cercanas a la realidad de hospitales y centros de salud del país.</p>
+            <p>Así lo entiende el Dr. Andrés Díaz-Guio, director general de Simulación e Innovación de USS, quien relata que generalmente los simuladores han sido con características caucásicas, blancos de ojos azules que, a pesar de estar incorporados en centros de simulación en todo el mundo, son alejados de la realidad de los pacientes.</p>
+            <p>“Recientemente, la industria que se dedica a desarrollar software y equipos para la simulación clínica han migrado a tener diferentes tipos de simuladores que se parezcan a los pacientes y menos a un muñeco estático rígido”, refleja el médico intensivista con cerca de dos décadas dedicado a la simulación médica en Colombia, y que recientemente llegó a la USS a trabajar en docencia.</p>
+            <h4>Los simuladores clínicos multiculturales</h4>
+            <p>Ante la adquisición, el Dr. Díaz-Guio pone énfasis en su valor para dar cuenta de esta nueva realidad: “No es un secreto el proceso migratorio que se vive en el mundo, pero el caso de América Latina y Chile en particular puede atraer problemas sanitarios que probablemente antes no estaban en una localización específica”.</p>
+            <p>Asimismo, los simuladores adquiridos cumplirán un rol interprofesional, pensando en la formación de enfermeras, kinesiólogos, entre otras profesiones del área de la salud, siendo una posibilidad cercana de trabajar bajo escenarios actuales. El uso de la tecnología se complementará con convenios con centros clínicos que también, pensando en futuros proyectos de campos clínicos, para ayudar a formar a personal en otras regiones. “No sólo queremos estar en el pregrado, sino que también con médicos, enfermeras, kinesiólogos que están en los campos clínicos reales”, precisa el académico USS.</p>
+            <p>Este nuevo hito en el desarrollo de las carreras del área de la salud de esta casa de estudios fue posible gracias al proyecto Fondos de Desarrollo Institucional (FDI) del Ministerio de Educación adjudicado por la USS, el que busca entrenar a futuros profesionales en contextos de diversidad. Asimismo, la USS ha adquirido otros simuladores con facciones y anatomía de un anciano y de una mujer, los cuales se vuelven relevantes al ser generalmente simuladores masculinos. “La simulación es una representación del mundo de lo real, y es importante que podamos acercarnos a ese mundo real desde el simulador y no solo desde el contexto”, complementa el profesional.</p>
+            <p>Los simuladores multiculturales van a estar en los cuatro centros de la universidad, y será complementado con convenios con centros clínicos para poder observar casos reales.</p>
+            <h4>Fenómenos de migración</h4>
+            <p>Sobre la relación del personal médico con los fenómenos de la migración, el Dr. Andrés Díaz-Guio comparte que estos deben desarrollar “altos niveles de empatía hacia las demás personas”. Ante ello, afirma: “Yo creo que eso está dentro de la vocación que nosotros tenemos de ayudar a las personas, indistintamente de la nacionalidad, religión, color, idioma y de cuestiones políticas. Nosotros vamos mucho más allá de eso y buscamos aliviar y ayudar a las personas. Las tecnologías son un medio que nosotros utilizamos para ayudar a crear representaciones congruentes con lo que sucede en la realidad para generar aprendizajes”.</p>
+            <p>El académico USS agrega que dichos aprendizajes ocurren en entornos seguros para los estudiantes, los educadores y los pacientes que no están en medio de la ecuación. Ante la evolución constante de herramientas similares, este proyecta que podrían aparecer modelos de lenguaje; inteligencia artificial generativa, que va a permitir que los simuladores tengan una respuesta mucho más rápida, mucho más fisiológica y se parezca un poco más a lo que ocurriría con los pacientes.</p>
+            <hr>
+        </div>
+        <div class="recuadro-noticia">
+            <div class="row">
+                <div class="col">
+                    <h1>Caos News</h1>
+                </div>
+                <div class="col">
+                    <h6>Quiénes somos</h6><br>
+                    <h6>Código de ética</h6><br>
+                    <h6>Canal de denuncias</h6>
+                </div>
+                <div class="col">
+                    <h6>Preguntas frecuentes</h6><br>
+                    <h6>Declaración de intereses</h6><br>
+                    <h6>Contacto comercial</h6>
+                </div>
+                <div class="col">
+                    <h6>Términos y condiciones</h6><br>
+                    <h6>Politícas de privacidad</h6>
+                </div>
+            </div>
+        </div>
+        </div>
     </body>
 </html>

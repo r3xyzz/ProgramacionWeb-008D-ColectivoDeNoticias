@@ -6,33 +6,90 @@
     </head>
     <body>
         <header>
-            <nav class="navbar">
-                <div class="logo-container">
-                    <img src="imagenes.img/logo_cn.png" alt="Caos News Logo" class="logo">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">Caos New</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Acerca de </a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Noticias
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" aria-disabled="false">Contacto</a>
+                      </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                      <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                  </div>
                 </div>
-                <ul class="nav-links">
-                    <li><a href="#">Inicio</a></li>
-                    <li><a href="http://127.0.0.1:3000/noticias.html">Noticias</a></li>
-                    <li><a href="#">Acerca de</a></li>
-                    <li><a href="http://127.0.0.1:3000/contacto.html">Contacto</a></li>
-                </ul>
-                <div class="search-container">
-                    <input type="text" placeholder="Buscar...">
-                    <button type="submit">Buscar</button>
-                </div>
-            </nav>
+              </nav>
         </header>
         <div class="recuadro-noticia">
             <div class="row">
-                <h1>TITULO NOTICIA</h1>
+                <h1>Condenan a 7 años de presidio a mujer por tráfico de cocaína base: escondió más de 30 kilos de droga bajo una cama en Estación Central</h1>
             </div>
             <div class="row">
                 <div class="col">
-                    <p>descripción<br>descripción<br>descripción<br>descripción<br>descripción</p>
+                    <p>El delito fue cometido en octubre de 2022. Desde entonces, la imputada ha permanecido privada de libertad.</p>
                 </div>
                 <div class="col">
-                    <h1>IMAGEN</h1>
+                    <img src="imagenes.img/noticia_droga.jpg" alt="noticia_droga">
                 </div>
             </div>
+        </div>
+        <div class="cuerpo-noticia">
+            <p id="fecha" style="margin-right: 40%;">02/03/2024 - Chile, Valparaíso</p>
+            <img class="imagen-circular" alt="Foto de Autor de Noticia" src="https://square-vn.com/app/dscms/assets/images/person-1.jpg">
+            <p id ="fecha">Mauricio José | periodista.</p>
+            <h2>Condenan a 7 años de presidio a mujer por tráfico de cocaína base: escondió más de 30 kilos de droga bajo una cama en Estación Central</h2>
+            <hr>
+            <p>Este sábado, el Poder Judicial dio a conocer una sentencia dictada por el Cuarto Tribunal de Juicio Oral en lo Penal de Santiago en contra de una mujer por el delito de tráfico de drogas, cometido el 30 de octubre de 2022 en Estación Central.</p>
+            <p>El tribunal estableció que la imputada mantenía debajo de su cama una maleta de color azul, con treinta kilos y 260 gramos de cocaína base en su interior.</p>
+            <p>Según lo expuesto en el fallo, el tribunal consideró como elementos probatorios “la prueba testimonial, pericial, documental y los otros medios incorporados mediante exhibición, las cuales han sido estimadas por estos sentenciadores como suficientes e idóneas para formarse plena convicción de la efectividad del hecho descrito precedentemente, dada la gravedad, precisión y concordancia de los datos obtenidos de estos, máxime si no fueron desvirtuadas por antecedente alguno en contrario y que, por lo demás, fueron refrendadas por la declaración de la encausada prestada en juicio”.</p>
+            <p>Finalmente, el tribunal condenó a la imputada a la pena de siete años de presidio como autora del delito consumado de tráfico de drogas.</p>
+            <p>Asimismo, se inhabilitó a la imputada para cargos y oficios públicos y profesiones titulares, mientras dure la condena. Además, deberá pagar una multa de 10 UTM.</p>
+            <p>Los 515 días que la mujer ha permanecido privada de libertad -desde su detención en octubre de 2022- se abonarán a la condena dictada por el tribunal.</p>
+            <hr>
+        </div>
+        <div class="recuadro-noticia">
+            <div class="row">
+                <div class="col">
+                    <h1>Caos News</h1>
+                </div>
+                <div class="col">
+                    <h6>Quiénes somos</h6><br>
+                    <h6>Código de ética</h6><br>
+                    <h6>Canal de denuncias</h6>
+                </div>
+                <div class="col">
+                    <h6>Preguntas frecuentes</h6><br>
+                    <h6>Declaración de intereses</h6><br>
+                    <h6>Contacto comercial</h6>
+                </div>
+                <div class="col">
+                    <h6>Términos y condiciones</h6><br>
+                    <h6>Politícas de privacidad</h6>
+                </div>
+            </div>
+        </div>
     </body>
 </html>

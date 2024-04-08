@@ -224,9 +224,17 @@ header {
 .recuadro-noticia {
     background-color: #333;
     color: #fff;
-    height: 25vb;
+    height: 30vb;
     width: 100%;
     border: #ff0f0f;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.recuadro-noticia img {
+    width: 30vw;
+    height: 15vh;
+    margin: 0 auto;
+    object-fit: cover;
 }
 
 /* Estilo Blackletter para el texto 'Caos New' en tu navbar */
@@ -236,3 +244,7 @@ header {
   
 
 /* Ta mare pe, ta todo desordenado */
+.cuerpo-noticia {
+    background-color: #f8f9fa;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

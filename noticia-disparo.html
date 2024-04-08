@@ -6,33 +6,97 @@
     </head>
     <body>
         <header>
-            <nav class="navbar">
-                <div class="logo-container">
-                    <img src="imagenes.img/logo_cn.png" alt="Caos News Logo" class="logo">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">Caos New</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Acerca de </a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Noticias
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" aria-disabled="false">Contacto</a>
+                      </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                      <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                  </div>
                 </div>
-                <ul class="nav-links">
-                    <li><a href="#">Inicio</a></li>
-                    <li><a href="http://127.0.0.1:3000/noticias.html">Noticias</a></li>
-                    <li><a href="#">Acerca de</a></li>
-                    <li><a href="http://127.0.0.1:3000/contacto.html">Contacto</a></li>
-                </ul>
-                <div class="search-container">
-                    <input type="text" placeholder="Buscar...">
-                    <button type="submit">Buscar</button>
-                </div>
-            </nav>
+              </nav>
         </header>
         <div class="recuadro-noticia">
             <div class="row">
-                <h1>TITULO NOTICIA</h1>
+                <h1>Detienen a sujeto que disparó contra jugador en partido de fútbol rural en Monte Patria</h1>
             </div>
             <div class="row">
                 <div class="col">
-                    <p>descripción<br>descripción<br>descripción<br>descripción<br>descripción</p>
+                    <p>El atacante premunido con dos armas, abrió fuego en tres oportunidades en contra de un menor de 16 años, quien no resultó herido debido a que pudo huir del lugar. El alcalde Cristian Herrera adelantó que el municipio interpondrá una querella criminal contra el antisocial.</p>
                 </div>
                 <div class="col">
-                    <h1>IMAGEN</h1>
+                    <img src="imagenes.img/noticia_disparo.jpg" alt="noticia_disparo">
                 </div>
             </div>
+        </div>
+        <div class="cuerpo-noticia">
+            <p id="fecha" style="margin-right: 40%;">02/03/2024 - Chile, Valparaíso</p>
+            <img class="imagen-circular" alt="Foto de Autor de Noticia" src="https://square-vn.com/app/dscms/assets/images/person-1.jpg">
+            <p id ="fecha">Mauricio José | periodista.</p>
+            <h2>Detienen a sujeto que disparó contra jugador en partido de fútbol rural en Monte Patria</h2>
+            <hr>
+            <p>Un sujeto fue detenido durante la tarde de este sábado luego de percutar al menos tres disparos tras un partido de fútbol, en un sector rural de la comuna de Monte Patria, en la Región de Coquimbo.</p>
+            <p>De acuerdo con información proporcionada por Carabineros, el hecho se registró cerca de las 16 horas, en momentos en que se jugaba el encuentro por la tercera fecha de la liga Anfur (de equipos rurales) entre dos equipos de la zona.</p>
+            <p>Fue en ese contexto cuando tras finalizar el juego y dado el resultado, se produjo una riña entre quienes disputaban el partido, para posteriormente ingresar a la cancha algunas personas que observaban desde las galerías, momento en que uno de los individuos extrajo un arma de fuego con la que disparó en contra de uno de los jugadores.</p>
+            <p>Al respecto, el capitán Raimundo Barrios, de la Tercera Comisaría de Ovalle, señaló que fueron los asistentes quienes solicitaron la concurrencia del personal policial para interceder ante la violenta gresca, los cuales se entrevistaron con uno de los jugadores, menor de 16 años, quien detalló lo ocurrido y sindicó al autor del suceso.</p>
+            <p>El antisocial disparó en tres ocasiones en contra del joven, “el que logra huir ágilmente del lugar, evitando ser impactado por alguno de los impactos balísticos”, dijo el jefe policial.</p>
+            <p>El testimonio de la víctima permitió iniciar un operativo para capturar al agresor, quien fue encontrado a los pocos metros del lugar. Tras su arresto, se incautó una pistola 9 mm. y una pistola a fogueo adaptada para el disparo.</p>
+            <p>La Fiscalía Local de Ovalle determinó la concurrencia en el sitio del suceso de la Brigada de Investigación Criminal (Bicrim) de la Policía de Investigaciones (PDI), mientras que el armamento encontrado será remitido a Labocar de Coquimbo.</p>
+            <p>El sujeto deberá comparecer en audiencia de control de detención durante este domingo, donde será formalizado por los delitos de porte ilegal de arma de fuego y municiones, homicidio frustrado y daños.</p>
+            <h4>Municipio anuncia querella</h4>
+            <p>Respecto a este suceso, el alcalde de Monte Patria. Cristian Herrera, anunció que el municipio interpondrá acciones legales en contra del antisocial, por medio de una querella criminal que ingresará en los próximos días.</p>
+            <p>“No vamos a permitir que unos delincuentes se tomen nuestras canchas. Por ello, vamos a adoptar varias medidas. Nos vamos a hacer parte, como municipalidad, con una querella criminal contra el delincuente que causó estos hechos de violencia”, dijo el jefe comunal a 24 Horas.</p>
+            <p>Asimismo, adelantó que “estamos convocando a una reunión urgente para el día lunes a todos los representantes y presidentes de las asociaciones de fútbol de nuestra comuna porque de manera conjunta tenemos que adoptar medidas”.</p>
+            <hr>
+        </div>
+        <div class="recuadro-noticia">
+            <div class="row">
+                <div class="col">
+                    <h1>Caos News</h1>
+                </div>
+                <div class="col">
+                    <h6>Quiénes somos</h6><br>
+                    <h6>Código de ética</h6><br>
+                    <h6>Canal de denuncias</h6>
+                </div>
+                <div class="col">
+                    <h6>Preguntas frecuentes</h6><br>
+                    <h6>Declaración de intereses</h6><br>
+                    <h6>Contacto comercial</h6>
+                </div>
+                <div class="col">
+                    <h6>Términos y condiciones</h6><br>
+                    <h6>Politícas de privacidad</h6>
+                </div>
+            </div>
+            </div>
+        </div>
     </body>
 </html>
